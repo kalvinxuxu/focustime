@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:\\\\Users\\\\kalvi\\\\Documents\\\\time managment\" && npm create vite@latest . -- --template react 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\kalvi\\\\Documents\\\\time managment\" && npm init -y 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\kalvi\\\\Documents\\\\time managment\" && npm install vite @vitejs/plugin-react react react-dom 2>&1)",
+      "Bash(which vercel:*)",
+      "Bash(cd \"C:\\\\Users\\\\kalvi\\\\Documents\\\\time managment\" && vercel login)",
+      "Bash(cd \"C:\\\\Users\\\\kalvi\\\\Documents\\\\time managment\" && vercel --yes)",
+      "Bash(cd \"C:\\\\Users\\\\kalvi\\\\Documents\\\\time managment\" && vercel --name focustime --yes)"
+    ]
+  }
+}

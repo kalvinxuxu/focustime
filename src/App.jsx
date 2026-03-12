@@ -293,12 +293,11 @@ export default function App() {
             <button className="tip-btn" onClick={() => setTip((t) => (t + 1) % FOCUS_TIPS.length)}>下一条 →</button>
           </div>
           <div style={{
-            fontSize: 19,
+            fontSize: 22,
             lineHeight: 1.7,
             color: "#1a1a2e",
             fontStyle: "italic",
-            fontFamily: "'Cormorant Garamond', serif",
-            fontSize: 22
+            fontFamily: "'Cormorant Garamond', serif"
           }}>"{FOCUS_TIPS[tip]}"</div>
         </div>
 
